@@ -35,7 +35,7 @@ class BookimagesController < ApplicationController
   private
 
   def bookImage_params
-    params.require(:bookImages).permit(:img_id, :user_id)
+    params.require(:bookImage).permit(:img_id, :user_id)
   end
 
 end

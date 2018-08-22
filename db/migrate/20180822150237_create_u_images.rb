@@ -1,6 +1,6 @@
-class CreateUimages < ActiveRecord::Migration[5.2]
+class CreateUImages < ActiveRecord::Migration[5.2]
   def change
-    create_table :uimages do |t|
+    create_table :u_images do |t|
       t.string :title
       t.string :category
       t.string :imgURL

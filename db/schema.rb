@@ -38,7 +38,7 @@ ActiveRecord::Schema.define(version: 2018_08_22_151138) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "uimages", force: :cascade do |t|
+  create_table "u_images", force: :cascade do |t|
     t.string "title"
     t.string "category"
     t.string "imgURL"

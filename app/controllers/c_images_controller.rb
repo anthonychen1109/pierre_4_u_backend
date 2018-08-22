@@ -34,6 +34,6 @@ class CImagesController < ApplicationController
   private
 
   def c_image_params
-    params.require(:c_images).permit(:uimg_id, :user_id, :imgURL)
+    params.require(:c_image).permit(:uimg_id, :user_id, :imgURL)
   end
 end

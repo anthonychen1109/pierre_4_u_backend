@@ -34,6 +34,6 @@ class UImagesController < ApplicationController
   private
 
   def u_image_params
-    params.require(:u_images).permit(:title, :category, :imgURL)
+    params.require(:u_image).permit(:title, :category, :imgURL)
   end
 end
