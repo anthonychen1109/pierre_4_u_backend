@@ -1,4 +1,4 @@
 class UImage < ApplicationRecord
-  has_many :bookImages
-  has_many :books, through: :bookImages
+  has_many :book_images
+  has_many :books, through: :book_images
 end

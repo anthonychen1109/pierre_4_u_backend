@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   resources :u_images
   resources :c_images
   resources :books
-  resources :bookimages
+  resources :book_images
 end

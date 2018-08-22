@@ -1,8 +1,8 @@
 class CreateBookImages < ActiveRecord::Migration[5.2]
   def change
     create_table :book_images do |t|
-      t.integer :img_id
-      t.integer :user_id
+      t.integer :u_image_id
+      t.integer :book_id
 
       t.timestamps
     end

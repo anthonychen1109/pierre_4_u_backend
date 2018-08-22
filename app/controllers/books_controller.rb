@@ -7,6 +7,7 @@ class BooksController < ApplicationController
   end
 
   def show
+    @book = Book.find(params[:id])
     render json: @book
   end
 
@@ -34,6 +35,10 @@ class BooksController < ApplicationController
   end
 
   private
+
+  def set_book
+    @book = Book.find(params[:id])
+  end
 
   def book_params
     params.require(:book).permit(:title, :user_id)

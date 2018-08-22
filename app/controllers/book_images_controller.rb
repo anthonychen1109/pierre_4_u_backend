@@ -1,4 +1,4 @@
-class BookimagesController < ApplicationController
+class BookImagesController < ApplicationController
 
   def index
     @bookImages = BookImage.all
@@ -6,6 +6,7 @@ class BookimagesController < ApplicationController
   end
 
   def show
+    @bookImage = BookImage.find(params[:id])
     render json: @bookImage
   end
 
@@ -35,7 +36,7 @@ class BookimagesController < ApplicationController
   private
 
   def bookImage_params
-    params.require(:bookImage).permit(:img_id, :user_id)
+    params.require(:book_image).permit(:img_id, :user_id)
   end
 
 end

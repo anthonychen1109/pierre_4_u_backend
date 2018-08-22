@@ -9,7 +9,7 @@ class UImagesController < ApplicationController
   end
 
   def create
-    @u_image = Uimage.new(u_image_params)
+    @u_image = UImage.new(u_image_params)
 
     if @u_image.save
       render json: @u_image, status: :created, location: @u_image
