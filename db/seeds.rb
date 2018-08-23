@@ -12,11 +12,11 @@ Book.create(title: "My first book", user_id: 1)
 
 #oranges
 UImage.create(title: "two oranges", category: "oranges", imgURL: "http://www.supercoloring.com/sites/default/files/styles/coloring_full/public/cif/2015/07/two-oranges-one-whole-and-the-other-cut-it-pieces-coloring-page.png")
-UImage.create(title: "three oranges", category: "oranges", imgURL: "http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2009/01/orange-12-coloring-page.giff")
+UImage.create(title: "three oranges", category: "oranges", imgURL: "http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2009/01/orange-12-coloring-page.gif")
 UImage.create(title: "1 1/4 oranges", category: "oranges", imgURL: "http://mvngcstl.com/wp-content/uploads/2018/05/coloring-pages-of-oranges-coloring-pages-of-orange-top-86-orange-coloring-pages-free-coloring-best-coloring-pages.jpg")
 UImage.create(title: "1 orange", category: "oranges", imgURL: "https://img.clipartxtras.com/345b8b9ddf960507cf7056edb55ddbbd_top-86-orange-coloring-pages-free-coloring-page-annoying-orange-drawing_550-554.jpeg")
 UImage.create(title: "3 oranges and branch", category: "oranges", imgURL: "http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2009/01/orange-16-coloring-page.gif")
-UImage.create(title: "1 1/2 oranges", category: "oranges", imgURL: "http://www.mulierchile.com/orange-coloring-pages-for-kids/orange-coloring-pages-for-kids-005.jpg7")
+UImage.create(title: "1 1/2 oranges", category: "oranges", imgURL: "http://www.mulierchile.com/orange-coloring-pages-for-kids/orange-coloring-pages-for-kids-005.jpg")
 #bovidae
 UImage.create(title: "rhinoceros", category: "bovidae", imgURL: "http://letterforfriend.site/wp-content/uploads/2018/02/black-and-white-unicorns-unicorn-clip-art-black-and-white-clipart-for-unicorn-clipart-black-and-white.jpeg")
 UImage.create(title: "impala", category: "bovidae", imgURL: "http://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2012/12/african-antelope-impala-coloring-page.jpg")
