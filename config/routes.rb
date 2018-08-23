@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   resources :c_images
   resources :books
   resources :book_images
+  resources :users
 end

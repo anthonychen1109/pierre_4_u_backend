@@ -30,10 +30,8 @@ ActiveRecord::Schema.define(version: 2018_08_22_200737) do
   end
 
   create_table "c_images", force: :cascade do |t|
-    t.integer "u_image_id"
     t.integer "user_id"
     t.string "imgURL"
-    t.string "title"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
